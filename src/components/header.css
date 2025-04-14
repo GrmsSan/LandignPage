@@ -1,0 +1,17 @@
+
+.header{
+ display: felx;
+ flex-direction: column;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+}
+
+@media (min-widht: 768px){
+    .header{
+        flex-direction: row-reverse;
+    }
+}
